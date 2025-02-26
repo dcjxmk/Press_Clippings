@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Clippings Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <style>
+        .clipping-form { max-width: 1000px; margin: 0 auto; }
+        .clipping-list { margin-top: 2rem; }
+        .clipping-item { margin-bottom: 1rem; cursor: move; }
+        .clipping-item:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        .loading { opacity: 0.5; pointer-events: none; }
+        .category-header {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border-left: 4px solid #0d6efd;
+        }
+        .article-content {
+            white-space: pre-line;
+            margin: 15px 0;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Press Clippings Manager</h1>
+        
+        <div class="clipping-form">
+            <div class="mb-4">
+                <h3>Add from URL</h3>
+                <div class="input-group">
+                    <input type="url" class="form-control" id="urlInput" placeholder="Enter article URL">
+                    <button class="btn btn-secondary" onclick="scrapeUrl()">Fetch Content</button>
+                </div>
+            </div>
+
+            <form id="clippingForm" class="mb-4">
+                <div class="mb-3">
+                    <label for="headline" class="form-label">Headline</label>
+                    <input type="text" class="form-control" id="headline" required>
+                </div>
+                <div class="mb-3">
+                    <label for="source" class="form-label">Source</label>
+                    <input type="text" class="form-control" id="source" required>
+                </div>
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <select class="form-select" id="category" required>
+                        <option value="Foreign Politics">Foreign Politics</option>
+                        <option value="Domestic Politics">Domestic Politics</option>
+                        <option value="Economy, Energy, Climate & Agriculture">Economy, Energy, Climate & Agriculture</option>
+                        <option value="Verschiedenes">Verschiedenes</option>
+                        <option value="Cartoon">Cartoon</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label">Content</label>
+                    <textarea class="form-control" id="content" rows="3" required></textarea>
+                </div>
+                <input type="hidden" id="urlField">
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Add Clipping</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success" onclick="exportToPdf()">Export to PDF</button>
+                        <button type="button" class="btn btn-success" onclick="exportToWord()">Export to Word</button>
+                        <button type="button" class="btn btn-danger" onclick="deleteAllClippings()">Delete All Articles</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="clipping-list">
+                <h3>Current Clippings</h3>
+                <div id="clippingsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = '/api/clippings';
+        let clippings = [];
+        let sortable;
+
+        // Initialize sortable
+        function initSortable() {
+            const el = document.getElementById('clippingsList');
+            sortable = Sortable.create(el, {
+                animation: 150,
+                onEnd: async function(evt) {
+                    const items = Array.from(el.children).map((item, index) => ({
+                        id: parseInt(item.dataset.id),
+                        order: index
+                    }));
+                    await fetch('/api/clippings/reorder', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(items)
+                    });
+                }
+            });
+        }
+
+        // Load existing clippings
+        async function loadClippings() {
+            const response = await fetch(API_URL);
+            clippings = await response.json();
+            displayClippings();
+            initSortable();
+        }
+
+        // Display clippings in the list
+        function displayClippings() {
+            const list = document.getElementById('clippingsList');
+            
+            // Group clippings by category
+            const categories = {};
+            clippings.forEach(clipping => {
+                if (!categories[clipping.category]) {
+                    categories[clipping.category] = [];
+                }
+                categories[clipping.category].push(clipping);
+            });
+
+            // Generate HTML for each category
+            list.innerHTML = `<div id="categoriesList">` + 
+                Object.entries(categories)
+                    .sort(([catA], [catB]) => catA.localeCompare(catB))
+                    .filter(([category, categoryClippings]) => 
+                        // Only show categories with articles, except always show Cartoon
+                        category === 'Cartoon' || categoryClippings.length > 0
+                    )
+                    .map(([category, categoryClippings]) => `
+                        <div class="category-section mb-4" data-category="${category}">
+                            <h4 class="category-header text-primary"><span class="drag-handle">☰</span> ${category}</h4>
+                            <div class="articles-container">
+                                ${categoryClippings
+                                    .sort((a, b) => a.order - b.order)
+                                    .map(clipping => `
+                                        <div class="card clipping-item" data-id="${clipping.id}">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><span class="drag-handle">☰</span> ${clipping.headline}</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">
+                                                    ${clipping.source} - ${clipping.date}
+                                                    ${clipping.url ? `<a href="${clipping.url}" target="_blank" class="ms-2"><small>Original Article</small></a>` : ''}
+                                                </h6>
+                                                <div class="article-content">${clipping.content}</div>
+                                                <div class="btn-group">
+                                                    <button class="btn btn-sm btn-primary" onclick="editClipping(${clipping.id})">Edit</button>
+                                                    <button class="btn btn-sm btn-danger" onclick="deleteClipping(${clipping.id})">Delete</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                            </div>
+                        </div>
+                    `).join('') + `</div>`;
+
+            // Initialize sortable for categories
+            const categoriesList = document.getElementById('categoriesList');
+            Sortable.create(categoriesList, {
+                animation: 150,
+                handle: '.category-header .drag-handle',
+                draggable: '.category-section',
+                onEnd: async function(evt) {
+                    // Update article orders after category reorder
+                    const allItems = Array.from(document.querySelectorAll('.clipping-item'))
+                        .map((item, index) => ({
+                            id: parseInt(item.dataset.id),
+                            order: index
+                        }));
+                    
+                    await fetch('/api/clippings/reorder', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(allItems)
+                    });
+                }
+            });
+            
+            // Initialize sortable for articles within each category
+            document.querySelectorAll('.articles-container').forEach(container => {
+                Sortable.create(container, {
+                    animation: 150,
+                    handle: '.drag-handle',
+                    draggable: '.clipping-item',
+                    group: 'shared',  // This allows dragging between categories
+                    onEnd: async function(evt) {
+                        // Get the new category from the target container
+                        const newCategory = evt.to.closest('.category-section').dataset.category;
+                        const clippingId = parseInt(evt.item.dataset.id);
+                        
+                        // If the category changed, update it
+                        const clipping = clippings.find(c => c.id === clippingId);
+                        if (clipping && clipping.category !== newCategory) {
+                            await fetch(`${API_URL}/${clippingId}`, {
+                                method: 'PUT',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ ...clipping, category: newCategory })
+                            });
+                        }
+                        
+                        // Update all orders
+                        const allItems = Array.from(document.querySelectorAll('.clipping-item'))
+                            .map((item, index) => ({
+                                id: parseInt(item.dataset.id),
+                                order: index
+                            }));
+                        
+                        await fetch('/api/clippings/reorder', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(allItems)
+                        });
+                    }
+                });
+            });
+        }
+
+        // Scrape URL
+        async function scrapeUrl() {
+            const urlInput = document.getElementById('urlInput');
+            const url = urlInput.value.trim();
+            
+            if (!url) return;
+
+            try {
+                urlInput.disabled = true;
+                const response = await fetch('/api/scrape', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ url })
+                });
+                
+                const data = await response.json();
+                if (data.error) throw new Error(data.error);
+                
+                document.getElementById('headline').value = data.headline;
+                document.getElementById('source').value = data.source;
+                document.getElementById('content').value = data.content;
+                document.getElementById('urlField').value = data.url;
+                
+            } catch (error) {
+                alert('Error fetching content: ' + error.message);
+            } finally {
+                urlInput.disabled = false;
+            }
+        }
+
+        // Export functions
+        async function exportToPdf() {
+            window.location.href = '/api/export/pdf';
+        }
+
+        async function exportToWord() {
+            window.location.href = '/api/export/docx';
+        }
+
+        // Add new clipping
+        document.getElementById('clippingForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitButton = e.target.querySelector('button[type="submit"]');
+            const editingId = submitButton.dataset.editingId;
+            
+            const formData = {
+                headline: document.getElementById('headline').value,
+                source: document.getElementById('source').value,
+                category: document.getElementById('category').value,
+                content: document.getElementById('content').value,
+                url: document.getElementById('urlField').value
+            };
+
+            const method = editingId ? 'PUT' : 'POST';
+            const url = editingId ? `${API_URL}/${editingId}` : API_URL;
+
+            const response = await fetch(url, {
+                method: method,
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                const clipping = await response.json();
+                if (editingId) {
+                    // Update existing clipping
+                    const index = clippings.findIndex(c => c.id === parseInt(editingId));
+                    if (index !== -1) {
+                        clippings[index] = clipping;
+                    }
+                    // Reset form to add mode
+                    submitButton.textContent = 'Add Clipping';
+                    delete submitButton.dataset.editingId;
+                } else {
+                    // Add new clipping
+                    clippings.push(clipping);
+                }
+                displayClippings();
+                e.target.reset();
+                document.getElementById('urlField').value = '';
+                document.getElementById('urlInput').value = '';
+            }
+        });
+
+        // Edit clipping
+        async function editClipping(id) {
+            const clipping = clippings.find(c => c.id === id);
+            if (clipping) {
+                document.getElementById('headline').value = clipping.headline;
+                document.getElementById('source').value = clipping.source;
+                document.getElementById('category').value = clipping.category;
+                document.getElementById('content').value = clipping.content;
+                document.getElementById('urlField').value = clipping.url || '';
+                
+                // Change form submit button text and store editing id
+                const submitButton = document.querySelector('#clippingForm button[type="submit"]');
+                submitButton.textContent = 'Update Clipping';
+                submitButton.dataset.editingId = id;
+                
+                // Scroll to form
+                document.querySelector('.clipping-form').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Delete clipping
+        async function deleteClipping(id) {
+            if (!confirm('Are you sure you want to delete this clipping?')) return;
+            
+            const response = await fetch(`${API_URL}/${id}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                clippings = clippings.filter(c => c.id !== id);
+                displayClippings();
+            }
+        }
+
+        // Add deleteAllClippings function
+        async function deleteAllClippings() {
+            if (!confirm('Are you sure you want to delete all articles? This cannot be undone.')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/clippings/delete-all', {
+                    method: 'DELETE'
+                });
+                
+                if (response.ok) {
+                    clippings = [];
+                    displayClippings();
+                } else {
+                    throw new Error('Failed to delete all articles');
+                }
+            } catch (error) {
+                alert('Error deleting all articles: ' + error.message);
+            }
+        }
+
+        // Add some CSS for the drag handles
+        const style = document.createElement('style');
+        style.textContent = `
+            .drag-handle {
+                cursor: move;
+                margin-right: 8px;
+                color: #999;
+                user-select: none;
+            }
+            .category-header {
+                display: flex;
+                align-items: center;
+            }
+            .card-title {
+                display: flex;
+                align-items: center;
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Initial load
+        loadClippings();
+    </script>
+</body>
+</html>
