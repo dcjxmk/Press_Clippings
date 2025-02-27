@@ -51,13 +51,17 @@
                 </div>
                 <div class="mb-3">
                     <label for="category" class="form-label">Category</label>
-                    <select class="form-select" id="category" required>
+                    <select class="form-select" id="category" onchange="handleCategoryChange()" required>
                         <option value="Foreign Politics">Foreign Politics</option>
                         <option value="Domestic Politics">Domestic Politics</option>
                         <option value="Economy, Energy, Climate & Agriculture">Economy, Energy, Climate & Agriculture</option>
                         <option value="Verschiedenes">Verschiedenes</option>
                         <option value="Cartoon">Cartoon</option>
+                        <option value="custom">+ Add New Category</option>
                     </select>
+                    <div id="customCategoryInput" class="mt-2" style="display: none;">
+                        <input type="text" class="form-control" id="customCategory" placeholder="Enter new category name">
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="content" class="form-label">Content</label>
@@ -260,19 +264,47 @@
             window.location.href = '/api/export/docx';
         }
 
+        // Add category change handler
+        function handleCategoryChange() {
+            const categorySelect = document.getElementById('category');
+            const customInput = document.getElementById('customCategoryInput');
+            const customCategory = document.getElementById('customCategory');
+            
+            if (categorySelect.value === 'custom') {
+                customInput.style.display = 'block';
+                customCategory.required = true;
+                categorySelect.required = false;
+            } else {
+                customInput.style.display = 'none';
+                customCategory.required = false;
+                categorySelect.required = true;
+            }
+        }
+
         // Add new clipping
         document.getElementById('clippingForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const submitButton = e.target.querySelector('button[type="submit"]');
             const editingId = submitButton.dataset.editingId;
+            const categorySelect = document.getElementById('category');
+            const customCategory = document.getElementById('customCategory');
             
             const formData = {
                 headline: document.getElementById('headline').value,
                 source: document.getElementById('source').value,
-                category: document.getElementById('category').value,
+                category: categorySelect.value === 'custom' ? customCategory.value : categorySelect.value,
                 content: document.getElementById('content').value,
                 url: document.getElementById('urlField').value
             };
+            
+            // Add new category to select if it's custom
+            if (categorySelect.value === 'custom' && customCategory.value) {
+                const newOption = document.createElement('option');
+                newOption.value = customCategory.value;
+                newOption.textContent = customCategory.value;
+                // Insert before the "Add New Category" option
+                categorySelect.insertBefore(newOption, categorySelect.lastElementChild);
+            }
 
             const method = editingId ? 'PUT' : 'POST';
             const url = editingId ? `${API_URL}/${editingId}` : API_URL;
@@ -304,6 +336,7 @@
                 e.target.reset();
                 document.getElementById('urlField').value = '';
                 document.getElementById('urlInput').value = '';
+                document.getElementById('customCategoryInput').style.display = 'none';
             }
         });
 

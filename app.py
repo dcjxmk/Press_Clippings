@@ -255,6 +255,18 @@ def scrape_url(url):
     finally:
         driver.quit()
 
+# Updated get_clean_source_name function to clean source URLs
+def get_clean_source_name(source):
+    # Remove common TLDs and subdomains
+    common_tlds = ['.com', '.co.za', '.org', '.net', '.gov', '.edu', 'www.']
+    cleaned = source
+    for tld in common_tlds:
+        cleaned = cleaned.replace(tld, '')
+    # Split by dots or slashes and take first part
+    cleaned = cleaned.split('.')[0].split('/')[0]
+    # Capitalize each word
+    return ' '.join(word.capitalize() for word in cleaned.split())
+
 def generate_pdf(clippings):
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.pdf')
     doc = SimpleDocTemplate(
@@ -268,7 +280,7 @@ def generate_pdf(clippings):
     
     styles = getSampleStyleSheet()
     
-    # Main title: 16pt, bold, underlined
+    # Main title: 16pt, bold, underlined, centered
     current_date = datetime.now()
     day_name = current_date.strftime('%A')
     date_str = current_date.strftime('%d %B %Y')
@@ -283,7 +295,7 @@ def generate_pdf(clippings):
         underline=True
     )
     
-    # Category style: 14pt, bold, underline
+    # Category style: 14pt, bold, underline, left-aligned
     category_style = ParagraphStyle(
         'CategoryStyle',
         parent=styles['Heading1'],
@@ -291,34 +303,40 @@ def generate_pdf(clippings):
         leading=18,
         textColor=colors.black,
         underline=True,
-        spaceAfter=12
+        spaceAfter=6,  # Reduced space after category
+        alignment=0  # Left alignment
     )
     
-    # Article headline style: 10.5pt, bold
+    # Article headline style: 10.5pt, bold, left-aligned
     headline_style = ParagraphStyle(
         'HeadlineStyle',
         parent=styles['Normal'],
         fontSize=10.5,
         leading=13,
-        bold=True
+        bold=True,
+        alignment=0,  # Left alignment
+        spaceAfter=0  # No space after headline
     )
     
-    # Article content style: 10.5pt
+    # Article content style: 10.5pt, left-aligned
     content_style = ParagraphStyle(
         'ContentStyle',
         parent=styles['Normal'],
         fontSize=10.5,
-        leading=13
+        leading=13,
+        alignment=0,  # Left alignment
+        spaceAfter=6  # Space after content
     )
     
-    # Source style: blue for URL
+    # Source style: blue for URL, left-aligned
     source_style = ParagraphStyle(
         'SourceStyle',
         parent=styles['Normal'],
         fontSize=10.5,
         leading=13,
         textColor=colors.blue,
-        spaceAfter=12
+        spaceAfter=12,  # Space between articles
+        alignment=0  # Left alignment
     )
     
     story = []
@@ -358,23 +376,25 @@ def generate_pdf(clippings):
         
         # Only show categories with articles or Cartoon category
         if articles or category == "Cartoon":
-            # Add category header (14pt, bold, underlined)
+            # Add category header
             story.append(Paragraph(f"<b><u>{category}</u></b>", category_style))
+            story.append(Spacer(1, 6))  # Single line after category title
             
             if articles:
                 for clipping in sorted(articles, key=lambda x: x.order):
-                    # Article headline (10.5pt, bold)
+                    # Article headline
                     story.append(Paragraph(f"<b>{clipping.headline}</b>", headline_style))
                     
-                    # Article content (10.5pt)
+                    # Article content (no space between headline and content)
                     story.append(Paragraph(clipping.content, content_style))
                     
-                    # Source and date (blue for source if URL exists)
+                    # Source and date with cleaned source name
                     date_str = clipping.date.strftime('%d/%m/%Y')
+                    clean_source = get_clean_source_name(clipping.source)
                     if clipping.url:
-                        source_text = f'<link href="{clipping.url}"><font color="blue">{clipping.source}</font></link>'
+                        source_text = f'<link href="{clipping.url}"><font color="blue">{clean_source}</font></link>'
                     else:
-                        source_text = clipping.source
+                        source_text = clean_source
                     story.append(Paragraph(f"{source_text} | {date_str}", source_style))
                     
                     story.append(Spacer(1, 12))  # Space between articles
@@ -392,7 +412,7 @@ def generate_pdf(clippings):
 def generate_docx(clippings):
     doc = DocxDocument()
     
-    # Title formatting (16pt, bold, underlined)
+    # Title formatting (16pt, bold, underlined, centered)
     current_date = datetime.now()
     day_name = current_date.strftime('%A')
     date_str = current_date.strftime('%d %B %Y')
@@ -403,7 +423,7 @@ def generate_docx(clippings):
     title_run.font.underline = True
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     
-    doc.add_paragraph()  # Add space after title
+    doc.add_paragraph()  # Single line after title
     
     # Fixed categories in specific order
     fixed_categories = [
@@ -436,66 +456,66 @@ def generate_docx(clippings):
         
         # Only show categories with articles or Cartoon category
         if articles or category == "Cartoon":
-            # Category header (14pt, bold, underlined)
+            # Category header with left alignment
             cat_heading = doc.add_paragraph()
             cat_run = cat_heading.add_run(category)
             cat_run.bold = True
             cat_run.font.size = Pt(14)
             cat_run.font.underline = True
+            cat_heading.alignment = WD_ALIGN_PARAGRAPH.LEFT
             
-            doc.add_paragraph()  # Space after category header
+            doc.add_paragraph()  # Single line after category
             
             if articles:
                 for clipping in sorted(articles, key=lambda x: x.order):
-                    # Article headline (10.5pt, bold)
+                    # Article headline
                     headline = doc.add_paragraph()
                     headline_run = headline.add_run(clipping.headline)
                     headline_run.bold = True
                     headline_run.font.size = Pt(10.5)
+                    headline.alignment = WD_ALIGN_PARAGRAPH.LEFT
                     
-                    # Article content (10.5pt)
+                    # Article content (no space between headline and content)
                     content = doc.add_paragraph()
                     content_run = content.add_run(clipping.content)
                     content_run.font.size = Pt(10.5)
+                    content.alignment = WD_ALIGN_PARAGRAPH.LEFT
                     
-                    # Source and date line
+                    # Source and date with cleaned source name
                     source_para = doc.add_paragraph()
                     date_str = clipping.date.strftime('%d/%m/%Y')
+                    clean_source = get_clean_source_name(clipping.source)
                     
-                    # Add source as hyperlink if URL exists
                     if clipping.url:
                         # Create hyperlink with blue color
                         rel_id = doc.part.relate_to(clipping.url, docx.opc.constants.RELATIONSHIP_TYPE.HYPERLINK, is_external=True)
                         hyperlink = docx.oxml.shared.OxmlElement('w:hyperlink')
                         hyperlink.set(docx.oxml.shared.qn('r:id'), rel_id)
                         
-                        # Create run for hyperlink
                         run = docx.oxml.shared.OxmlElement('w:r')
                         run_props = docx.oxml.shared.OxmlElement('w:rPr')
                         
-                        # Set blue color
                         color = docx.oxml.shared.OxmlElement('w:color')
                         color.set(docx.oxml.shared.qn('w:val'), '0000FF')
                         run_props.append(color)
                         
-                        # Set underline
                         underline = docx.oxml.shared.OxmlElement('w:u')
                         underline.set(docx.oxml.shared.qn('w:val'), 'single')
                         run_props.append(underline)
                         
                         run.append(run_props)
                         text = docx.oxml.shared.OxmlElement('w:t')
-                        text.text = clipping.source
+                        text.text = clean_source
                         run.append(text)
                         hyperlink.append(run)
                         source_para._p.append(hyperlink)
                     else:
-                        source_para.add_run(clipping.source)
+                        source_para.add_run(clean_source)
                     
-                    # Add date
                     source_para.add_run(f" | {date_str}")
+                    source_para.alignment = WD_ALIGN_PARAGRAPH.LEFT
                     
-                    doc.add_paragraph()  # Space between articles
+                    doc.add_paragraph()  # Single line between articles
             
             doc.add_paragraph()  # Space after category
     
