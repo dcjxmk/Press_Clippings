@@ -1,0 +1,14 @@
+[Unit]
+Description=Press Clippings Gunicorn Service
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/path/to/Press_clippings_v2
+Environment="PATH=/path/to/Press_clippings_v2/venv/bin"
+ExecStart=/path/to/Press_clippings_v2/venv/bin/gunicorn -c gunicorn_config.py wsgi:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

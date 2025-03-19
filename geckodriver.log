@@ -1,0 +1,934 @@
+1741081579121	geckodriver	INFO	Listening on 127.0.0.1:57169
+1741081582174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilezqjAnB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741081582926	Marionette	INFO	Marionette enabled
+1741081583073	Marionette	INFO	Listening on port 57183
+Read port: 57183
+WebDriver BiDi listening on ws://127.0.0.1:57170
+1741081583137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741081587685	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1916: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 1916 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js:1:11507
+
+1741081591591	Marionette	INFO	Stopped listening on port 57183
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741081596959	geckodriver	INFO	Listening on 127.0.0.1:57352
+1741081600008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileMB0ayW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741081600280	Marionette	INFO	Marionette enabled
+1741081600413	Marionette	INFO	Listening on port 57365
+WebDriver BiDi listening on ws://127.0.0.1:57353
+Read port: 57365
+1741081600550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741081604646	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 3061: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 3061 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741081617106	Marionette	INFO	Stopped listening on port 57365
+JavaScript warning: https://ajs-assets.ftstatic.com/ftUtils.js, line 1: Script terminated by timeout at:
+repeater/<@https://ajs-assets.ftstatic.com/ftUtils.js:1:37492
+
+JavaScript warning: https://s0.2mdn.net/879366/Enabler_01_253.js, line 121: Script terminated by timeout at:
+yh.prototype.A@https://s0.2mdn.net/879366/Enabler_01_253.js:121:667
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWi1741081618893	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741081629506	Marionette	INFO	Stopped listening on port 57551
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1741081830643	geckodriver	INFO	Listening on 127.0.0.1:57861
+1741081833675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57862" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileJY7bXd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741081833914	Marionette	INFO	Marionette enabled
+1741081834057	Marionette	INFO	Listening on port 57869
+WebDriver BiDi listening on ws://127.0.0.1:57862
+Read port: 57869
+1741081834172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js:1:11507
+
+1741081838752	Marionette	INFO	Stopped listening on port 57869
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741081969838	geckodriver	INFO	Listening on 127.0.0.1:58051
+1741081972856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58054" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileKCiQCK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741081973594	Marionette	INFO	Marionette enabled
+1741081973790	Marionette	INFO	Listening on port 58079
+WebDriver BiDi listening on ws://127.0.0.1:58054
+Read port: 58079
+1741081973930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741081978839	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, lJavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741081990255	Marionette	INFO	Stopped listening on port 58072
+JavaScript warning: https://ajs-assets.ftstatic.com/ftUtils.js, line 1: Script terminated by timeout at:
+getWindowDetails@https://ajs-assets.ftstatic.com/ftUtils.js:1:33285
+getPlacementPosition@https://ajs-assets.ftstatic.com/ftUtils.js:1:31989
+detect@https://ajs-assets.ftstatic.com/ftUtils.js:1:29751
+repeater@https://ajs-assets.ftstatic.com/ftUtils.js:1:36641
+repeater/<@https://ajs-assets.ftstatic.com/ftUtils.js:1:37494
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 7091: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 7091 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pa1741081990129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileslYtX2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741081990434	Marionette	INFO	Marionette enabled
+1741081990570	Marionette	INFO	Listening on port 58446
+WebDriver BiDi listening on ws://127.0.0.1:58431
+Read port: 58446
+1741081990745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741081994820	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 5198: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 5198 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1741082006149	Marionette	INFO	Stopped listening on port 58441741082007404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58636" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileOf0Cb4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741082007661	Marionette	INFO	Marionette enabled
+1741082007783	Marionette	INFO	Listening on port 58648
+WebDriver BiDi listening on ws://127.0.0.1:58636
+Read port: 58648
+1741082007909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502270101/pubads_impl.js, line 33: Script terminated by timeout at:
+wR.prototype.start/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502270101/pubads_impl.js:33:288774
+sA@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502270101/pubads_impl.js:33:154057
+uA/this.next@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502270101/pubads_impl.js:33:154356
+b@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502270101/pubads_impl.js:33:154607
+
+1741082010667	Marionette	INFO	Stopped listening on port 58648
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741093673877	geckodriver	INFO	Listening on 127.0.0.1:63141
+1741093676898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileLyXj1F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741093677235	Marionette	INFO	Marionette enabled
+1741093677381	Marionette	INFO	Listening on port 63153
+WebDriver BiDi listening on ws://127.0.0.1:63142
+Read port: 63153
+1741093677557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/8555074395759422904/index.html#t=3664165305756489738&p=https%3A%2F%2F42d89bd20b84a4568d2239c4251c039c.safeframe.googlesyndication.com, line 270: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 6383: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 6383 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval, line 338: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YMTlHzM8q1bMRhxKXzNyNRDu_s2b7jhLqEN0fMSFM0U.js line 2 > eval line 338 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741093687203	Marionette	INFO	Stopped listening on port 63153
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741253067334	geckodriver	INFO	Listening on 127.0.0.1:52935
+1741253070384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilefpEEIb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741253070731	Marionette	INFO	Marionette enabled
+1741253070882	Marionette	INFO	Listening on port 52944
+WebDriver BiDi listening on ws://127.0.0.1:52936
+Read port: 52944
+1741253071018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741253075036	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741253079431	Marionette	INFO	Stopped listening on port 52944
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1741254588571	geckodriver	INFO	Listening on 127.0.0.1:53754
+1741254591593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilezaoT0G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741254591834	Marionette	INFO	Marionette enabled
+1741254591950	Marionette	INFO	Listening on port 53763
+WebDriver BiDi listening on ws://127.0.0.1:53755
+Read port: 53763
+1741254592064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741254596113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741254600794	Marionette	INFO	Stopped listening on port 53763
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741254715146	geckodriver	INFO	Listening on 127.0.0.1:53984
+1741254718164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile8JkL4Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741254718399	Marionette	INFO	Marionette enabled
+1741254718519	Marionette	INFO	Listening on port 53994
+WebDriver BiDi listening on ws://127.0.0.1:53985
+Read port: 53994
+1741254718637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741254843289	Marionette	INFO	Stopped listening on port 53994
+Dynamically enable window occlusion 1
+1741254903468	geckodriver	INFO	Listening on 127.0.0.1:54136
+1741254906500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54137" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileIRUO1s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741254906766	Marionette	INFO	Marionette enabled
+1741254906811	Marionette	INFO	Listening on port 54144
+WebDriver BiDi listening on ws://127.0.0.1:54137
+Read port: 54144
+1741254906954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741255034531	Marionette	INFO	Stopped listening on port 54144
+Dynamically enable window occlusion 1
+1741255295574	geckodriver	INFO	Listening on 127.0.0.1:54408
+1741255298596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilenGk8KD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741255298840	Marionette	INFO	Marionette enabled
+1741255298954	Marionette	INFO	Listening on port 54417
+WebDriver BiDi listening on ws://127.0.0.1:54409
+Read port: 54417
+1741255299068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741255422893	Marionette	INFO	Stopped listening on port 54417
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilexsuaca"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741255338536	Marionette	INFO	Marionette enabled
+1741255338655	Marionette	INFO	Listening on port 54516
+WebDriver BiDi listening on ws://127.0.0.1:54508
+Read port: 54516
+1741255338785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741255463182	Marionette	INFO	Stopped listening on port 54516
+Dynamically enable window occlusion 1
+1741255724139	geckodriver	INFO	Listening on 127.0.0.1:54796
+1741255727168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile6OsdZi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741255727709	Marionette	INFO	Marionette enabled
+1741255727821	Marionette	INFO	Listening on port 54805
+WebDriver BiDi listening on ws://127.0.0.1:54797
+Read port: 54805
+1741255727938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741255772074	Marionette	INFO	Stopped listening on port 54805
+Dynamically enable window occlusion 1
+1741255910896	geckodriver	INFO	Listening on 127.0.0.1:55153
+1741255913955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile0E8C6Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741255914238	Marionette	INFO	Marionette enabled
+1741255914355	Marionette	INFO	Listening on port 55161
+WebDriver BiDi listening on ws://127.0.0.1:55154
+Read port: 55161
+1741255914470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741255918502	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741255923833	Marionette	INFO	Stopped listening on port 55161
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+1741256019247	geckodriver	INFO	Listening on 127.0.0.1:55374
+1741256022287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55375" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile499fyg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741256022522	Marionette	INFO	Marionette enabled
+1741256022635	Marionette	INFO	Listening on port 55382
+WebDriver BiDi listening on ws://127.0.0.1:55375
+Read port: 55382
+1741256022753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741256066641	Marionette	INFO	Stopped listening on port 55382
+Dynamically enable window occlusion 1
+1741258293844	geckodriver	INFO	Listening on 127.0.0.1:56355
+1741258296839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56356" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile23EXjq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741258297085	Marionette	INFO	Marionette enabled
+1741258297199	Marionette	INFO	Listening on port 56367
+WebDriver BiDi listening on ws://127.0.0.1:56356
+Read port: 56367
+1741258297322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741258320509	Marionette	INFO	Stopped listening on port 56367
+Dynamically enable window occlusion 1
+1741258775664	geckodriver	INFO	Listening on 127.0.0.1:56659
+1741258778697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilebELLWH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741258779242	Marionette	INFO	Marionette enabled
+1741258779353	Marionette	INFO	Listening on port 56667
+WebDriver BiDi listening on ws://127.0.0.1:56660
+Read port: 56667
+1741258779470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741258782112	Marionette	INFO	Stopped listening on port 56667
+Dynamically enable window occlusion 1
+1741339074307	geckodriver	INFO	Listening on 127.0.0.1:53184
+1741339077348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilecAKtje"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741339077610	Marionette	INFO	Marionette enabled
+1741339077735	Marionette	INFO	Listening on port 53192
+WebDriver BiDi listening on ws://127.0.0.1:53185
+Read port: 53192
+1741339077886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741339081997	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741339087011	Marionette	INFO	Stopped listening on port 53192
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1741609417651	geckodriver	INFO	Listening on 127.0.0.1:56338
+1741609420703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilelSUUIu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741609420964	Marionette	INFO	Marionette enabled
+1741609421073	Marionette	INFO	Listening on port 56355
+WebDriver BiDi listening on ws://127.0.0.1:56339
+Read port: 56355
+1741609421235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741609452240	Marionette	INFO	Stopped listening on port 56355
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":614,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":614,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":614,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":614,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":614,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":730,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54|
+  - prototype Object
+console.warn: services.settings: main/remote-permissions sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/third-party-cookie-blocking-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/devtools-news getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1741609663247	geckodriver	INFO	Listening on 127.0.0.1:56508
+1741609666282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilebGyUO3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741609666521	Marionette	INFO	Marionette enabled
+1741609666610	Marionette	INFO	Listening on port 56516
+WebDriver BiDi listening on ws://127.0.0.1:56509
+Read port: 56516
+1741609666722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741609697681	Marionette	INFO	Stopped listening on port 56516
+Dynamically enable window occlusion 1
+1741610545895	geckodriver	INFO	Listening on 127.0.0.1:56858
+1741610548936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileFjWqme"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741610549175	Marionette	INFO	Marionette enabled
+1741610549268	Marionette	INFO	Listening on port 56867
+WebDriver BiDi listening on ws://127.0.0.1:56859
+Read port: 56867
+1741610549377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741610580347	Marionette	INFO	Stopped listening on port 56867
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/pioneer-content-v2 getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1741610789801	geckodriver	INFO	Listening on 127.0.0.1:57050
+1741610792843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofilek6Whqv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741610793078	Marionette	INFO	Marionette enabled
+1741610793163	Marionette	INFO	Listening on port 57058
+WebDriver BiDi listening on ws://127.0.0.1:57051
+Read port: 57058
+1741610793275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.
+1741610842650	geckodriver	INFO	Listening on 127.0.0.1:57085
+1741610845677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57086" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileanr50t"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741610845913	Marionette	INFO	Marionette enabled
+1741610846001	Marionette	INFO	Listening on port 57093
+WebDriver BiDi listening on ws://127.0.0.1:57086
+Read port: 57093
+1741610846109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741610877076	Marionette	INFO	Stopped listening on port 57093
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":614,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":614,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":614,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":614,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":614,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":730,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54|
+  - prototype Object
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/nimbus-secure-experiments sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/remote-permissions sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/content-relevance getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1741773794993	geckodriver	INFO	Listening on 127.0.0.1:52895
+1741773798069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52896" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileWhaTis"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741773798430	Marionette	INFO	Marionette enabled
+1741773798615	Marionette	INFO	Listening on port 52904
+WebDriver BiDi listening on ws://127.0.0.1:52896
+Read port: 52904
+1741773798817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741773830143	Marionette	INFO	Stopped listening on port 52904
+Dynamically enable window occlusion 1
+1741774534408	geckodriver	INFO	Listening on 127.0.0.1:53271
+1741774537440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile4qF7by"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741774537678	Marionette	INFO	Marionette enabled
+1741774537765	Marionette	INFO	Listening on port 53279
+WebDriver BiDi listening on ws://127.0.0.1:53272
+Read port: 53279
+1741774537875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741774568816	Marionette	INFO	Stopped listening on port 53279
+Dynamically enable window occlusion 1
+1741774808725	geckodriver	INFO	Listening on 127.0.0.1:53414
+1741774811743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofile6IcXH4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741774811982	Marionette	INFO	Marionette enabled
+1741774812068	Marionette	INFO	Listening on port 53422
+WebDriver BiDi listening on ws://127.0.0.1:53415
+Read port: 53422
+1741774812190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741774812935	Marionette	INFO	Stopped listening on port 53422
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/nimbus-secure-experiments: Signature of bundled changeset is invalid: TypeError: NetworkError: Network request failed.
+console.error: services.settings: 
+  main/newtab-wallpapers-v2: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/message-groups: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+1741775295514	geckodriver	INFO	Listening on 127.0.0.1:53584
+1741775298551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileN5j6GF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741775298799	Marionette	INFO	Marionette enabled
+1741775298885	Marionette	INFO	Listening on port 53592
+WebDriver BiDi listening on ws://127.0.0.1:53585
+Read port: 53592
+1741775298994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1741775304199	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://obs.cheqzone.com/placement_invocation?id=105699&idx=0&ch=%7B%22tag_id%22%3A%2200f466ccc4cdab5756561810db389b2632-Footer-2%22%2C%22page_url%22%3A%22https%3A%2F%2Fwww.news24.com%2Fnews24%2Fsouthafrica%2Fnews%2Fmy-lifes-a-nightmare-i-cant-wake-up-from-sa-woman-forced-to-work-as-scammer-in-myanmar-20250312%22%2C%22z_pub_id%22%3A%22www.news24.com%22%2C%22z_ad_id%22%3A%22191162001%22%2C%22ob_ad_id%22%3A%220%22%2C%22ssp%22%3A%22outbrainrtb%22%2C%22Request_id%22%3A%22b852a9d4ff2c11efa5faa8269da879c1%22%2C%22source_id%22%3A%225376920%22%2C%22app%22%3A%220%22%7D, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jPB5PXtVQ2U8QCw6pJiv_H-wuSh7uZFIUB8z4YRnPQ8.js line 2 > eval line 6665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741775321905	Marionette	INFO	Stopped listening on port 53592
+JavaScript warning: https://s0.2mdn.net/879366/Enabler_01_253.js, line 121: Script terminated by timeout at:
+yh.prototype.A@https://s0.2mdn.net/879366/Enabler_01_253.js:121:667
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+e'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is depreJavaScript warning: https://pagead2.googlesyndication.com/bgJavaScript warning: https://pagead2.googlesyndication.com/bg/jPB5PXtVQ2U8QCw6pJiv_H-wuSh7uZFIUB8z4YRnPQ8.js line 2 > eval line 364 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprec1741775335186	Marionette	INFO	Stopped listening on port 537JavaScript warning: https://pagead2.googlesyndication.com/bg/jPB5PXtVQ2U8QCw6pJiv_H-wuSh7uZFIUB8z4YRnPQ8.js line 2 > eval line 1828 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741775339607	Marionette	INFO	Stopped listening on port 53851
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

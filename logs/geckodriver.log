@@ -1,0 +1,28 @@
+1741776377235	geckodriver	INFO	Listening on 127.0.0.1:54773
+1741776380281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54774" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mmkps\\AppData\\Local\\Temp\\rust_mozprofileSMugoU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741776380528	Marionette	INFO	Marionette enabled
+1741776380614	Marionette	INFO	Listening on port 54781
+WebDriver BiDi listening on ws://127.0.0.1:54774
+Read port: 54781
+1741776380725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.news24.com/js/modules/chunk-PIIX5IMR.min.js, line 1: TypeError: o.cmd is undefined
+1741776384197	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.insurads.com/bootstrap/R0PFNQA6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jPB5PXtVQ2U8QCw6pJiv_H-wuSh7uZFIUB8z4YRnPQ8.js line 2 > eval line 1324 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1741776395673	Marionette	INFO	Stopped listening on port 54781
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

@@ -43,7 +43,7 @@
             <form id="clippingForm" class="mb-4">
                 <div class="mb-3">
                     <label for="headline" class="form-label">Headline</label>
-                    <input type="text" class="form-control" id="headline" required>
+                    <input type="text" class="form-control" id="headline">
                 </div>
                 <div class="mb-3">
                     <label for="source" class="form-label">Source</label>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="content" class="form-label">Content</label>
-                    <textarea class="form-control" id="content" rows="3" required></textarea>
+                    <textarea class="form-control" id="content" rows="3"></textarea>
                 </div>
                 <input type="hidden" id="urlField">
                 <div class="d-flex justify-content-between">
@@ -286,6 +286,7 @@
             e.preventDefault();
             const submitButton = e.target.querySelector('button[type="submit"]');
             const editingId = submitButton.dataset.editingId;
+            const isEdit = submitButton.dataset.isEdit === 'true';
             const categorySelect = document.getElementById('category');
             const customCategory = document.getElementById('customCategory');
             
@@ -294,7 +295,8 @@
                 source: document.getElementById('source').value,
                 category: categorySelect.value === 'custom' ? customCategory.value : categorySelect.value,
                 content: document.getElementById('content').value,
-                url: document.getElementById('urlField').value
+                url: document.getElementById('urlField').value,
+                isEdit: isEdit  // Include isEdit flag in the request
             };
             
             // Add new category to select if it's custom
@@ -302,7 +304,6 @@
                 const newOption = document.createElement('option');
                 newOption.value = customCategory.value;
                 newOption.textContent = customCategory.value;
-                // Insert before the "Add New Category" option
                 categorySelect.insertBefore(newOption, categorySelect.lastElementChild);
             }
 
@@ -320,7 +321,6 @@
             if (response.ok) {
                 const clipping = await response.json();
                 if (editingId) {
-                    // Update existing clipping
                     const index = clippings.findIndex(c => c.id === parseInt(editingId));
                     if (index !== -1) {
                         clippings[index] = clipping;
@@ -328,8 +328,8 @@
                     // Reset form to add mode
                     submitButton.textContent = 'Add Clipping';
                     delete submitButton.dataset.editingId;
+                    delete submitButton.dataset.isEdit;
                 } else {
-                    // Add new clipping
                     clippings.push(clipping);
                 }
                 displayClippings();
@@ -354,6 +354,7 @@
                 const submitButton = document.querySelector('#clippingForm button[type="submit"]');
                 submitButton.textContent = 'Update Clipping';
                 submitButton.dataset.editingId = id;
+                submitButton.dataset.isEdit = 'true';  // Add flag for edit mode
                 
                 // Scroll to form
                 document.querySelector('.clipping-form').scrollIntoView({ behavior: 'smooth' });
